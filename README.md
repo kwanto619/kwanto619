@@ -1,4 +1,11 @@
 <div align="center">
+        <img
+          width="90%"
+          src="public/banner.svg"
+          alt="Kwanto"
+        />
+      </div>
+<div align="center">
 
 # Konstantinos Antoniadis
 
