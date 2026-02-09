@@ -1,17 +1,11 @@
 <div align="center">
         <img
           width="90%"
-          src="public/banner.svg"
+          src="public/profile-banner.svg"
           alt="Kwanto"
         />
       </div>
 <div align="center">
-
-# Konstantinos Antoniadis
-
-**Software Developer · Embedded Systems · IoT**
-
-Thessaloniki, Greece
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/konstantinos-antoniadis-804997252/)
 
@@ -21,7 +15,7 @@ Thessaloniki, Greece
 
 ### About
 
-Software Developer at **Intelligent Entertainment**, specializing in embedded systems and IoT solutions for interactive entertainment. I design and develop hardware-software systems for escape rooms and arcade gaming platforms deployed across 8+ countries. My work spans the full stack — from programming ESP32 microcontrollers and integrating sensor arrays, to building Python backends and real-time control systems.
+Software Developer at **[Intelligent Entertainment](https://iegroup.gr/)**, specializing in embedded systems and IoT solutions for interactive entertainment. I design and develop hardware-software systems for escape rooms and arcade gaming platforms deployed across 8+ countries. My work spans the full stack — from programming ESP32 microcontrollers and integrating sensor arrays, to building Python backends and real-time control systems.
 
 - 🔹 Building interactive experiences for [TheMindtrap](https://themindtrap.gr/?lang=el) & [Agent Factory](https://agent-factory.com/)
 - 🔹 Working with C/C++, Python, Arduino, MQTT, SQLite
