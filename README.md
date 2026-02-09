@@ -57,19 +57,11 @@ Software Developer at **Intelligent Entertainment**, specializing in embedded sy
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=kwanto619&show_icons=true&theme=github_dark&hide_border=true&border_radius=8&count_private=true" alt="GitHub Stats" height="170"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kwanto619&theme=github_dark" alt="Profile Details" width="100%"/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kwanto619&theme=github_dark" alt="Stats" height="170"/>
 &nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kwanto619&layout=compact&theme=github_dark&hide_border=true&border_radius=8" alt="Top Languages" height="170"/>
-
-</div>
-
----
-
-### Contribution Graph
-
-<div align="center">
-
-![Snake animation](https://raw.githubusercontent.com/kwanto619/kwanto619/output/github-snake-dark.svg)
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kwanto619&theme=github_dark" alt="Top Languages" height="170"/>
 
 </div>
 
