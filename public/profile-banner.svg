@@ -1,111 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Konstantinos Antoniadis - Software Engineer - Python, Embedded, Backend - Thessaloniki, Greece">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
-      <stop offset="40%" style="stop-color:#111827;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0f1c"/>
+      <stop offset="55%" stop-color="#0d1526"/>
+      <stop offset="100%" stop-color="#0a0f1c"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101a2e"/>
+      <stop offset="100%" stop-color="#0c1322"/>
     </linearGradient>
-    <linearGradient id="circuit-glow" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.15" />
-      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:0.05" />
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2f81f7"/>
+      <stop offset="100%" stop-color="#58a6ff"/>
     </linearGradient>
-  </defs>
+    </defs>
 
-  <!-- Background -->
-  <rect width="900" height="300" fill="url(#bg)" rx="12"/>
+  <rect width="1200" height="320" fill="url(#bg)"/>
 
-  <!-- Circuit board pattern (left side) -->
-  <g opacity="0.07" stroke="#3b82f6" stroke-width="1.5" fill="none">
-    <!-- Horizontal traces -->
-    <line x1="0" y1="60" x2="120" y2="60"/>
-    <line x1="0" y1="120" x2="80" y2="120"/>
-    <line x1="0" y1="180" x2="140" y2="180"/>
-    <line x1="0" y1="240" x2="100" y2="240"/>
-    <!-- Vertical traces -->
-    <line x1="120" y1="60" x2="120" y2="100"/>
-    <line x1="80" y1="120" x2="80" y2="160"/>
-    <line x1="140" y1="180" x2="140" y2="210"/>
-    <!-- Nodes -->
-    <circle cx="120" cy="60" r="3" fill="#3b82f6"/>
-    <circle cx="80" cy="120" r="3" fill="#3b82f6"/>
-    <circle cx="140" cy="180" r="3" fill="#3b82f6"/>
-    <circle cx="100" cy="240" r="3" fill="#3b82f6"/>
-    <circle cx="120" cy="100" r="2.5" fill="#3b82f6"/>
-    <circle cx="80" cy="160" r="2.5" fill="#3b82f6"/>
-    <circle cx="140" cy="210" r="2.5" fill="#3b82f6"/>
+  <!-- panel -->
+  <rect x="96" y="18" width="1008" height="284" rx="18" fill="url(#panel)" stroke="#1b2740" stroke-width="1.5"/>
+  <!-- circuit decoration, drawn over the panel like the original -->
+  <g opacity=".6">
+  <g stroke="#17304f" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M60 60h90v46h74"/>
+    <path d="M60 232h120v-40h86"/>
+    <path d="M1140 74h-96v54h-70"/>
+    <path d="M1140 246h-130v-46h-70"/>
+    <path d="M150 150h54"/>
+    <path d="M1050 170h-54"/>
+  </g>
+  <g fill="#2f81f7" opacity=".55">
+    <circle cx="150" cy="106" r="4"/><circle cx="180" cy="192" r="4"/>
+    <circle cx="1044" cy="128" r="4"/><circle cx="1010" cy="200" r="4"/>
+    <circle cx="204" cy="150" r="3"/><circle cx="996" cy="170" r="3"/>
+  </g>
+  <g transform="translate(236,128)" opacity="0.9" stroke="#1e3a5f" stroke-width="2" fill="none" stroke-linecap="round">
+    <rect x="-18" y="-18" width="36" height="36" rx="5"/>
+    <rect x="-8" y="-8" width="16" height="16" rx="2"/>
+    <path d="M-18 -9h-12M-18 0h-12M-18 9h-12M18 -9h12M18 0h12M18 9h12M-9 -18v-12M0 -18v-12M9 -18v-12M-9 18v12M0 18v12M9 18v12"/>
+  </g>
+  <g transform="translate(944,168)" opacity="0.9" stroke="#1e3a5f" stroke-width="2" fill="none" stroke-linecap="round">
+    <rect x="-18" y="-18" width="36" height="36" rx="5"/>
+    <rect x="-8" y="-8" width="16" height="16" rx="2"/>
+    <path d="M-18 -9h-12M-18 0h-12M-18 9h-12M18 -9h12M18 0h12M18 9h12M-9 -18v-12M0 -18v-12M9 -18v-12M-9 18v12M0 18v12M9 18v12"/>
   </g>
 
-  <!-- Circuit board pattern (right side) -->
-  <g opacity="0.07" stroke="#06b6d4" stroke-width="1.5" fill="none">
-    <line x1="900" y1="50" x2="780" y2="50"/>
-    <line x1="900" y1="110" x2="810" y2="110"/>
-    <line x1="900" y1="170" x2="760" y2="170"/>
-    <line x1="900" y1="230" x2="800" y2="230"/>
-    <line x1="780" y1="50" x2="780" y2="90"/>
-    <line x1="810" y1="110" x2="810" y2="150"/>
-    <line x1="760" y1="170" x2="760" y2="200"/>
-    <circle cx="780" cy="50" r="3" fill="#06b6d4"/>
-    <circle cx="810" cy="110" r="3" fill="#06b6d4"/>
-    <circle cx="760" cy="170" r="3" fill="#06b6d4"/>
-    <circle cx="800" cy="230" r="3" fill="#06b6d4"/>
-    <circle cx="780" cy="90" r="2.5" fill="#06b6d4"/>
-    <circle cx="810" cy="150" r="2.5" fill="#06b6d4"/>
-    <circle cx="760" cy="200" r="2.5" fill="#06b6d4"/>
   </g>
 
-  <!-- Microchip icon (subtle, left) -->
-  <g transform="translate(160, 130)" opacity="0.04">
-    <rect x="-30" y="-30" width="60" height="60" rx="6" stroke="white" stroke-width="2" fill="none"/>
-    <line x1="-30" y1="-15" x2="-45" y2="-15" stroke="white" stroke-width="2"/>
-    <line x1="-30" y1="0" x2="-45" y2="0" stroke="white" stroke-width="2"/>
-    <line x1="-30" y1="15" x2="-45" y2="15" stroke="white" stroke-width="2"/>
-    <line x1="30" y1="-15" x2="45" y2="-15" stroke="white" stroke-width="2"/>
-    <line x1="30" y1="0" x2="45" y2="0" stroke="white" stroke-width="2"/>
-    <line x1="30" y1="15" x2="45" y2="15" stroke="white" stroke-width="2"/>
-    <line x1="-15" y1="-30" x2="-15" y2="-45" stroke="white" stroke-width="2"/>
-    <line x1="0" y1="-30" x2="0" y2="-45" stroke="white" stroke-width="2"/>
-    <line x1="15" y1="-30" x2="15" y2="-45" stroke="white" stroke-width="2"/>
-    <line x1="-15" y1="30" x2="-15" y2="45" stroke="white" stroke-width="2"/>
-    <line x1="0" y1="30" x2="0" y2="45" stroke="white" stroke-width="2"/>
-    <line x1="15" y1="30" x2="15" y2="45" stroke="white" stroke-width="2"/>
+
+  <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text text-anchor="middle" x="600" y="118" fill="#ffffff" font-size="58" font-weight="700" letter-spacing="0.5">Konstantinos Antoniadis</text>
+    <rect x="484" y="139" width="232" height="5" rx="2.5" fill="url(#accent)"/>
+    <text text-anchor="middle" x="600" y="184" fill="#c3ccd9" font-size="24" letter-spacing="6">SOFTWARE ENGINEER</text>
+    <text text-anchor="middle" x="600" y="221" fill="#7d8b9e" font-size="16" letter-spacing="4">PYTHON &#183; EMBEDDED &#183; BACKEND</text>
+    <text text-anchor="middle" x="600" y="263" fill="#6d7b8d" font-size="14" letter-spacing="1">
+      <tspan fill="#ec4899">&#128205;</tspan><tspan dx="6">Thessaloniki, Greece</tspan>
+    </text>
   </g>
-
-  <!-- Microchip icon (subtle, right) -->
-  <g transform="translate(740, 160)" opacity="0.04">
-    <rect x="-25" y="-25" width="50" height="50" rx="5" stroke="white" stroke-width="2" fill="none"/>
-    <line x1="-25" y1="-10" x2="-38" y2="-10" stroke="white" stroke-width="2"/>
-    <line x1="-25" y1="5" x2="-38" y2="5" stroke="white" stroke-width="2"/>
-    <line x1="25" y1="-10" x2="38" y2="-10" stroke="white" stroke-width="2"/>
-    <line x1="25" y1="5" x2="38" y2="5" stroke="white" stroke-width="2"/>
-    <line x1="-10" y1="-25" x2="-10" y2="-38" stroke="white" stroke-width="2"/>
-    <line x1="5" y1="-25" x2="5" y2="-38" stroke="white" stroke-width="2"/>
-    <line x1="-10" y1="25" x2="-10" y2="38" stroke="white" stroke-width="2"/>
-    <line x1="5" y1="25" x2="5" y2="38" stroke="white" stroke-width="2"/>
-  </g>
-
-  <!-- Subtle dot grid -->
-  <g opacity="0.03" fill="white">
-    <circle cx="300" cy="40" r="1.5"/><circle cx="350" cy="40" r="1.5"/><circle cx="400" cy="40" r="1.5"/><circle cx="450" cy="40" r="1.5"/><circle cx="500" cy="40" r="1.5"/><circle cx="550" cy="40" r="1.5"/><circle cx="600" cy="40" r="1.5"/>
-    <circle cx="300" cy="260" r="1.5"/><circle cx="350" cy="260" r="1.5"/><circle cx="400" cy="260" r="1.5"/><circle cx="450" cy="260" r="1.5"/><circle cx="500" cy="260" r="1.5"/><circle cx="550" cy="260" r="1.5"/><circle cx="600" cy="260" r="1.5"/>
-  </g>
-
-  <!-- Name -->
-  <text x="450" y="115" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" text-anchor="middle" fill="white" letter-spacing="1.5">Konstantinos Antoniadis</text>
-
-  <!-- Accent line -->
-  <rect x="330" y="132" width="240" height="3" rx="2" fill="url(#accent)"/>
-
-  <!-- Role -->
-  <text x="450" y="170" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle" fill="#94a3b8" letter-spacing="3">SOFTWARE DEVELOPER</text>
-
-  <!-- Specialties -->
-  <text x="450" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" text-anchor="middle" fill="#64748b" letter-spacing="2">EMBEDDED SYSTEMS  ·  IoT  ·  FULL STACK</text>
-
-  <!-- Location -->
-  <text x="450" y="250" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" text-anchor="middle" fill="#475569" letter-spacing="1">📍 Thessaloniki, Greece</text>
-
 </svg>
